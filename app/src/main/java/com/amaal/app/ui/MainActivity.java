@@ -1,11 +1,16 @@
 package com.amaal.app.ui;
 
 import android.os.Bundle;
-import android.widget.*;
+import android.widget.Button;
+import android.widget.TextView;
+
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.*;
+import androidx.recyclerview.widget.RecyclerView;
+
+import com.amaal.app.R;
 import com.amaal.app.data.*;
 import com.amaal.app.logic.FocusEngine;
+
 import java.util.*;
 
 public class MainActivity extends AppCompatActivity {
