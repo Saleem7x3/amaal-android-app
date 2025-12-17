@@ -1,0 +1,30 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:text="CURRENT FOCUS"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/focusTitle"
+        android:textSize="22sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/markDoneBtn"
+        android:text="Mark as Done"/>
+
+    <TextView
+        android:text="Today's Deeds"
+        android:paddingTop="16dp"
+        android:textStyle="bold"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/deedList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
+</ScrollView>
